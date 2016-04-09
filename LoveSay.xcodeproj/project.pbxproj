@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD8525D1CB955FA00CF30DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8525C1CB955FA00CF30DC /* AppDelegate.swift */; };
+		EBD8525F1CB955FA00CF30DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8525E1CB955FA00CF30DC /* ViewController.swift */; };
+		EBD852621CB955FA00CF30DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD852601CB955FA00CF30DC /* Main.storyboard */; };
+		EBD852641CB955FA00CF30DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD852631CB955FA00CF30DC /* Assets.xcassets */; };
+		EBD852671CB955FA00CF30DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD852651CB955FA00CF30DC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBD852591CB955FA00CF30DC /* LoveSay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveSay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD8525C1CB955FA00CF30DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD8525E1CB955FA00CF30DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD852611CB955FA00CF30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD852631CB955FA00CF30DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD852661CB955FA00CF30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD852681CB955FA00CF30DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD852561CB955FA00CF30DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD852501CB955FA00CF30DC = {
+			isa = PBXGroup;
+			children = (
+				EBD8525B1CB955FA00CF30DC /* LoveSay */,
+				EBD8525A1CB955FA00CF30DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD8525A1CB955FA00CF30DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD852591CB955FA00CF30DC /* LoveSay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD8525B1CB955FA00CF30DC /* LoveSay */ = {
+			isa = PBXGroup;
+			children = (
+				EBD8525C1CB955FA00CF30DC /* AppDelegate.swift */,
+				EBD8525E1CB955FA00CF30DC /* ViewController.swift */,
+				EBD852601CB955FA00CF30DC /* Main.storyboard */,
+				EBD852631CB955FA00CF30DC /* Assets.xcassets */,
+				EBD852651CB955FA00CF30DC /* LaunchScreen.storyboard */,
+				EBD852681CB955FA00CF30DC /* Info.plist */,
+			);
+			path = LoveSay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD852581CB955FA00CF30DC /* LoveSay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD8526B1CB955FA00CF30DC /* Build configuration list for PBXNativeTarget "LoveSay" */;
+			buildPhases = (
+				EBD852551CB955FA00CF30DC /* Sources */,
+				EBD852561CB955FA00CF30DC /* Frameworks */,
+				EBD852571CB955FA00CF30DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveSay;
+			productName = LoveSay;
+			productReference = EBD852591CB955FA00CF30DC /* LoveSay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD852511CB955FA00CF30DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Scott Love";
+				TargetAttributes = {
+					EBD852581CB955FA00CF30DC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EBD852541CB955FA00CF30DC /* Build configuration list for PBXProject "LoveSay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD852501CB955FA00CF30DC;
+			productRefGroup = EBD8525A1CB955FA00CF30DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD852581CB955FA00CF30DC /* LoveSay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD852571CB955FA00CF30DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD852671CB955FA00CF30DC /* LaunchScreen.storyboard in Resources */,
+				EBD852641CB955FA00CF30DC /* Assets.xcassets in Resources */,
+				EBD852621CB955FA00CF30DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD852551CB955FA00CF30DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD8525F1CB955FA00CF30DC /* ViewController.swift in Sources */,
+				EBD8525D1CB955FA00CF30DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBD852601CB955FA00CF30DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD852611CB955FA00CF30DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD852651CB955FA00CF30DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD852661CB955FA00CF30DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD852691CB955FA00CF30DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD8526A1CB955FA00CF30DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD8526C1CB955FA00CF30DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveSay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.scottlove.LoveSay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD8526D1CB955FA00CF30DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveSay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.scottlove.LoveSay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD852541CB955FA00CF30DC /* Build configuration list for PBXProject "LoveSay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD852691CB955FA00CF30DC /* Debug */,
+				EBD8526A1CB955FA00CF30DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD8526B1CB955FA00CF30DC /* Build configuration list for PBXNativeTarget "LoveSay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD8526C1CB955FA00CF30DC /* Debug */,
+				EBD8526D1CB955FA00CF30DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD852511CB955FA00CF30DC /* Project object */;
+}
