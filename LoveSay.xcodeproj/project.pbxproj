@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		EBD8525D1CB955FA00CF30DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8525C1CB955FA00CF30DC /* AppDelegate.swift */; };
-		EBD8525F1CB955FA00CF30DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8525E1CB955FA00CF30DC /* ViewController.swift */; };
+		EBD8525F1CB955FA00CF30DC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8525E1CB955FA00CF30DC /* ChatViewController.swift */; };
 		EBD852621CB955FA00CF30DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD852601CB955FA00CF30DC /* Main.storyboard */; };
 		EBD852641CB955FA00CF30DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD852631CB955FA00CF30DC /* Assets.xcassets */; };
 		EBD852671CB955FA00CF30DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD852651CB955FA00CF30DC /* LaunchScreen.storyboard */; };
+		EBD8526F1CB9592C00CF30DC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8526E1CB9592C00CF30DC /* Message.swift */; };
+		EBD852711CB960BE00CF30DC /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD852701CB960BE00CF30DC /* ChatCell.swift */; };
+		EBD852751CB9BB2700CF30DC /* UITableView+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD852741CB9BB2700CF30DC /* UITableView+Scroll.swift */; };
+		EBD852771CB9DB3300CF30DC /* CDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD852761CB9DB3300CF30DC /* CDHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBD852591CB955FA00CF30DC /* LoveSay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveSay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD8525C1CB955FA00CF30DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBD8525E1CB955FA00CF30DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD8525E1CB955FA00CF30DC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		EBD852611CB955FA00CF30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBD852631CB955FA00CF30DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBD852661CB955FA00CF30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBD852681CB955FA00CF30DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD8526E1CB9592C00CF30DC /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EBD852701CB960BE00CF30DC /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		EBD852741CB9BB2700CF30DC /* UITableView+Scroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Scroll.swift"; sourceTree = "<group>"; };
+		EBD852761CB9DB3300CF30DC /* CDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				EBD8525C1CB955FA00CF30DC /* AppDelegate.swift */,
-				EBD8525E1CB955FA00CF30DC /* ViewController.swift */,
+				EBD852741CB9BB2700CF30DC /* UITableView+Scroll.swift */,
+				EBD852761CB9DB3300CF30DC /* CDHelper.swift */,
+				EBD8525E1CB955FA00CF30DC /* ChatViewController.swift */,
+				EBD852701CB960BE00CF30DC /* ChatCell.swift */,
+				EBD8526E1CB9592C00CF30DC /* Message.swift */,
 				EBD852601CB955FA00CF30DC /* Main.storyboard */,
 				EBD852631CB955FA00CF30DC /* Assets.xcassets */,
 				EBD852651CB955FA00CF30DC /* LaunchScreen.storyboard */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD8525F1CB955FA00CF30DC /* ViewController.swift in Sources */,
+				EBD852751CB9BB2700CF30DC /* UITableView+Scroll.swift in Sources */,
+				EBD8526F1CB9592C00CF30DC /* Message.swift in Sources */,
+				EBD852771CB9DB3300CF30DC /* CDHelper.swift in Sources */,
+				EBD852711CB960BE00CF30DC /* ChatCell.swift in Sources */,
+				EBD8525F1CB955FA00CF30DC /* ChatViewController.swift in Sources */,
 				EBD8525D1CB955FA00CF30DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
